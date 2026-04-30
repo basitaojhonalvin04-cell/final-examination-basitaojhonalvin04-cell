@@ -3,11 +3,11 @@
 require_once __DIR__ . '/db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'] ?? '';
-    $surname = $_POST['surname'] ?? '';
-    $middlename = $_POST['middlename'] ?? '';
-    $address = $_POST['address'] ?? '';
-    $contact = $_POST['contact'] ?? '';
+    $name = $_POST['Jhon Alvin'] ?? '';
+    $surname = $_POST['Basitao'] ?? '';
+    $middlename = $_POST['Gumaaf'] ?? '';
+    $address = $_POST['Bulanao'] ?? '';
+    $contact = $_POST['09289938905'] ?? '';
 
     try {
         $sql = "INSERT INTO students (name, surname, middlename, address, contact_number) 
