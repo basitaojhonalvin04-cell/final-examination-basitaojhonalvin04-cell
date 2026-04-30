@@ -2,7 +2,9 @@ body{
     display:flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 .navbar{
     display: flex;
@@ -26,11 +28,12 @@ body{
     border:none;
     width:100px;
     border-radius:45px;
-    backdrop-filter: 5px;
+    backdrop-filter: blur(5px);
     color:aliceblue;
 }
 
-.content,.homecontent{
+.content,
+.homecontent{
     display:block;
     align-items: center;
 }
@@ -89,4 +92,76 @@ body{
 .toast-hidden {
     display: none;
     opacity: 0;
+}
+
+
+  .logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.circle-logo{
+    position:relative;
+    width:180px;
+    height:180px;
+    border:5px solid green;
+    border-radius:50%;
+}
+
+/* Leaf Design */
+.leaf{
+    position:absolute;
+    width:25px;
+    height:90px;
+    background:green;
+    border-radius:50% 50% 0 0;
+    clip-path:polygon(50% 0%, 100% 100%, 50% 85%, 0% 100%);
+    bottom:40px;
+    left:75px;
+    transform-origin:bottom center;
+}
+
+.center{
+    transform:rotate(0deg);
+}
+
+.left1{
+    transform:rotate(-35deg);
+}
+
+.right1{
+    transform:rotate(35deg);
+}
+
+.left2{
+    width:20px;
+    height:70px;
+    transform:rotate(-65deg);
+}
+
+.right2{
+    width:20px;
+    height:70px;
+    transform:rotate(65deg);
+}
+
+/* Stem */
+.stem{
+    position:absolute;
+    width:5px;
+    height:50px;
+    background:green;
+    bottom:15px;
+    left:87px;
+    border-radius:10px;
+}
+
+.logo p{
+    font-size:28px;
+    font-weight:bold;
+    color:green;
+    margin-top:10px;
 }
