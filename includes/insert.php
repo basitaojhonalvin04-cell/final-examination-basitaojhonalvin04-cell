@@ -5,7 +5,7 @@ require_once __DIR__ . '/db.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['Jhon Alvin'] ?? '';
     $surname = $_POST['Basitao'] ?? '';
-    $middlename = $_POST['Gumaaf'] ?? '';
+    $middlename = $_POST['Gumaad'] ?? '';
     $address = $_POST['Bulanao'] ?? '';
     $contact = $_POST['09289938905'] ?? '';
 
