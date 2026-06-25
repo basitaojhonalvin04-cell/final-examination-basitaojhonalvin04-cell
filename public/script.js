@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 function showSection(sectionID) {
 
@@ -14,22 +13,9 @@ function showSection(sectionID) {
 
     if (activeSection) {
         activeSection.style.display = "block";
-=======
-function showSection(sectionID) {
-    // hide all content sections (create/read/update/delete)
-    const sections = document.querySelectorAll('.content');
-    sections.forEach(section => {
-        section.style.display = 'none';
-    });
-
-    // hide home section
-    const homeSection = document.querySelector('.homecontent');
-    if (homeSection) {
-        homeSection.style.display = 'none';
->>>>>>> c7ef117c4c8670a2615e328573533cab71f14586
     }
+}
 
-<<<<<<< HEAD
 
 function goHome() {
 
@@ -77,12 +63,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
         window.history.replaceState({}, document.title, window.location.pathname);
-=======
-    // show selected section
-    const activeSection = document.getElementById(sectionID);
-    if (activeSection) {
-        activeSection.style.display = 'block';
->>>>>>> c7ef117c4c8670a2615e328573533cab71f14586
     }
 
  
