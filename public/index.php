@@ -8,43 +8,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
-    <nav class="navbar">
-<div class="logo" onclick="hideAll()">
-
-    <!-- Outer Circle -->
-    <div class="circle-logo">
-
-        <!-- Cannabis Leaf -->
-        <div class="leaf center"></div>
-        <div class="leaf left1"></div>
-        <div class="leaf right1"></div>
-        <div class="leaf left2"></div>
-        <div class="leaf right2"></div>
-
-        <!-- Stem -->
-        <div class="stem"></div>
-
-    </div>
-
-    <p>CRUD</p>
-</div>
-
-            <button class="navbarbuttons" onclick="showSection('create')"> Create </button>
-            <button class="navbarbuttons" onclick="showSection('read')"> Read </button>
-            <button class="navbarbuttons" onclick="showSection('update')"> Update </button>
-            <button class="navbarbuttons" onclick="showSection('delete')"> Delete </button>
-    </nav>
-  
-    <section id="home" class="homecontent"> 
-        <h1 class="splash">Welcome to Student Management System</h1>
-        <h2 class="splash">A Project in Integrative Programming Technologies</h2>
-    </section>
-    
-    <section id="create" class="content">
-        <h1 class="contenttitle"> Insert New Student </h1>
->>>>>>> c7ef117c4c8670a2615e328573533cab71f14586
 
 <nav class="navbar">
 
