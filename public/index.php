@@ -12,7 +12,7 @@
 <nav class="navbar">
 
     <a href="#" onclick="goHome()">
-        <img src="logo1.png" id="logo" alt="Logo">
+        <img src="basitao.png" id="logo" alt="Logo">
     </a>
 
     <button class="navbarbuttons" onclick="showSection('home')">Home</button>
