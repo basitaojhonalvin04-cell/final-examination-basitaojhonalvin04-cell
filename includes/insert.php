@@ -27,13 +27,22 @@ if ($action == "read") {
 
 
 
-if ($action == "insert") {
+if ($action == "insert") 
 
+<<<<<<< HEAD
     $surname = $_POST['surname'] ?? '';
     $name = $_POST['name'] ?? '';
     $middlename = $_POST['middlename'] ?? '';
     $address = $_POST['address'] ?? '';
     $contact = $_POST['contact'] ?? '';
+=======
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['Jhon Alvin'] ?? '';
+    $surname = $_POST['Basitao'] ?? '';
+    $middlename = $_POST['Gumaad'] ?? '';
+    $address = $_POST['Bulanao'] ?? '';
+    $contact = $_POST['09289938905'] ?? '';
+>>>>>>> c7ef117c4c8670a2615e328573533cab71f14586
 
     try {
         $sql = "INSERT INTO students (surname, name, middlename, address, contact)
