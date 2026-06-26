@@ -1,6 +1,6 @@
 <?php
 $host = '127.0.0.1'; 
-$db   = 'student_db';  
+$db   = 'jhonalvin';  
 $user = 'root';        
 $pass = '';          
 $port = '3306';        
